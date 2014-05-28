@@ -1,4 +1,4 @@
-# adaptive-detection v0.3.0 [![Build Status](https://travis-ci.org/Sinetheta/adaptive-detection.svg?branch=master)](https://travis-ci.org/Sinetheta/adaptive-detection)
+# adaptive-detection v0.4.1 [![Build Status](https://travis-ci.org/Sinetheta/adaptive-detection.svg?branch=master)](https://travis-ci.org/Sinetheta/adaptive-detection)
 
 This module allows you to detect iOS, Android and Windows Phone devices using user agent string
 
