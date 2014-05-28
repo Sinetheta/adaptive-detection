@@ -1,3 +1,13 @@
+<a name="0.4.0"></a>
+## 0.3.0 (2014-03-30)
+
+
+#### Features
+
+* add mobile device detection ([46bd620](https://github.com/Sinetheta/adaptive-detection/commit/cc842ad9971042458d3436dd5f0aaf0c6e018cab))
+* **build:**
+
+
 <a name="0.3.0"></a>
 ## 0.3.0 (2014-03-30)
 
