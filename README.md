@@ -58,12 +58,11 @@ Contributions are welcome. Please make a pull request against canary branch and 
 
 # Testing
 
-We use karma and jshint to ensure the quality of the code. The easiest way to run these checks is to use grunt:
+We use karma and jshint to ensure the quality of the code. The easiest way to run these checks is to use Gulp:
 
-    npm install -g grunt-cli
     npm install
     bower install
-    grunt
+    gulp
 
 The karma task will try to open Chrome as a browser in which to run the tests. Make sure this is available or change the configuration in `test/test.config.js` 
 
