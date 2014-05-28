@@ -113,6 +113,21 @@ adaptive.provider('$detection', [function() {
        */
       isWindowsPhone: function(){
         return (/(IEMobile)/gi).test(userAgent);
+      },
+      /**
+       * @ngdoc function
+       * @name adaptive.detection.$detection#isMobile
+       * @methodOf adaptive.detection.$detection
+       *
+       * @description
+       * Returns true if current device is a mobile device.
+       *
+       * @return {bool}
+       */
+      isMobile: function(){
+        var mobileUserAgents = ['Android', 'BlackBerry', 'iPhone', 'iPad', 'iPod', 'Opera Mini', 'IEMobile', 'Kindle', 'Silk', 'Fennec'];
+        var re = new RegExp(mobileUserAgents.join('|'), 'i');
+        return re.test(userAgent);
       }
     };
   };

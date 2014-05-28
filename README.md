@@ -49,6 +49,7 @@ You can detect Android and iOS devices using:
 ```js
     $detection.isAndroid();
     $detection.isiOS();
+    $detection.isMobile();
     $detection.isWindowsPhone();
 ```
     
